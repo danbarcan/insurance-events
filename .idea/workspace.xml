@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad5f92c-0f54-4f6c-a19f-262872e46672" name="Default Changelist" comment="" />
+    <list default="true" id="aad5f92c-0f54-4f6c-a19f-262872e46672" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/report/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/integration/TasksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/MonthReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/MonthReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/small-test-data-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/small-test-data-task1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/small-test-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/small-test-data-task2.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,30 +32,37 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zCESlducUFgW1NKXkNVLj1AFuP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,13 +70,87 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="D:\Dan\Dev\Workspace\Insurance Events\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Insurance Events" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="insurance-events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="integration" />
+      <option name="MAIN_CLASS_NAME" value="integration.TasksTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="insurance-events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="integration" />
+      <option name="MAIN_CLASS_NAME" value="integration.TasksTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest.testTask1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="insurance-events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="integration" />
+      <option name="MAIN_CLASS_NAME" value="integration.TasksTest" />
+      <option name="METHOD_NAME" value="testTask1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest.testTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="insurance-events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="integration" />
+      <option name="MAIN_CLASS_NAME" value="integration.TasksTest" />
+      <option name="METHOD_NAME" value="testTask2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,9 +158,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TasksTest" />
+        <item itemvalue="JUnit.TasksTest.testTask2" />
+        <item itemvalue="JUnit.TasksTest.testTask1" />
+        <item itemvalue="JUnit.TasksTest.test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,57 +177,54 @@
       <option name="presentableId" value="Default" />
       <updated>1633643671780</updated>
       <workItem from="1633643675056" duration="12644000" />
+      <workItem from="1633992216418" duration="10900000" />
+      <workItem from="1634285552799" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1262" y="177" width="975" height="1007" key="#xdebugger.evaluate" timestamp="1633656602832">
+    <state x="1000" y="359" key="#Main" timestamp="1634285703361">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1262" y="177" width="975" height="1007" key="#xdebugger.evaluate/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633656602832" />
-    <state width="2517" height="467" key="GridCell.Tab.0.bottom" timestamp="1633720435404">
+    <state x="1000" y="359" key="#Main/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285703361" />
+    <state x="878" y="356" key="#TasksTest" timestamp="1634285658799">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="467" key="GridCell.Tab.0.bottom/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633720435404" />
-    <state width="2517" height="467" key="GridCell.Tab.0.center" timestamp="1633720435403">
+    <state x="878" y="356" key="#TasksTest/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285658799" />
+    <state width="2517" height="467" key="GridCell.Tab.0.bottom" timestamp="1634285752765">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="467" key="GridCell.Tab.0.center/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633720435403" />
-    <state width="2517" height="467" key="GridCell.Tab.0.left" timestamp="1633720435402">
+    <state width="2517" height="467" key="GridCell.Tab.0.bottom/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285752765" />
+    <state width="2517" height="467" key="GridCell.Tab.0.center" timestamp="1634285752765">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="467" key="GridCell.Tab.0.left/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633720435402" />
-    <state width="2517" height="467" key="GridCell.Tab.0.right" timestamp="1633720435404">
+    <state width="2517" height="467" key="GridCell.Tab.0.center/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285752765" />
+    <state width="2517" height="467" key="GridCell.Tab.0.left" timestamp="1634285752764">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="467" key="GridCell.Tab.0.right/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633720435404" />
-    <state width="2517" height="483" key="GridCell.Tab.1.bottom" timestamp="1633656635431">
+    <state width="2517" height="467" key="GridCell.Tab.0.left/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285752764" />
+    <state width="2517" height="467" key="GridCell.Tab.0.right" timestamp="1634285752765">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.bottom/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633656635431" />
-    <state width="2517" height="483" key="GridCell.Tab.1.center" timestamp="1633656635431">
+    <state width="2517" height="467" key="GridCell.Tab.0.right/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285752765" />
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1634285577750">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.center/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633656635431" />
-    <state width="2517" height="483" key="GridCell.Tab.1.left" timestamp="1633656635431">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.left/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633656635431" />
-    <state width="2517" height="483" key="GridCell.Tab.1.right" timestamp="1633656635431">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.right/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633656635431" />
-    <state x="782" y="343" key="SettingsEditor" timestamp="1633643978223">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="782" y="343" key="SettingsEditor/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633643978223" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1633646425002">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1633646425002" />
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285577750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

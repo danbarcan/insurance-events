@@ -22,17 +22,11 @@ public class MonthReport {
             contract.getEvents().forEach(event -> {
                 if (!event.isApplied() && DateUtils.endOfMonth(month, DateUtils.YEAR_2020).compareTo(event.getAtDate()) >= 0) {
                     if (event.getName().equals(EventType.PriceIncreasedEvent)) {
-                        BigDecimal premiumModification = event.getPremiumIncrease()
-                                .multiply(BigDecimal.valueOf((DateUtils.YEAR_2020.isLeap() ? month.maxLength() : month.minLength()) + 1)
-                                        .subtract(BigDecimal.valueOf(event.getAtDate().getDate()))
-                                        .divide(BigDecimal.valueOf(DateUtils.YEAR_2020.isLeap() ? month.maxLength() : month.minLength())));
+                        BigDecimal premiumModification = computePremiumModificationProportionalWithDayOfMonth(event, event.getPremiumIncrease());
                         contract.setPremium(contract.getPremium().add(premiumModification));
                     } else if (event.getName().equals(EventType.PriceDecreasedEvent)) {
-                        BigDecimal premiumModification = event.getPremiumReduction()
-                                .multiply(BigDecimal.valueOf((DateUtils.YEAR_2020.isLeap() ? month.maxLength() : month.minLength()) + 1)
-                                        .subtract(BigDecimal.valueOf(event.getAtDate().getDate()))
-                                        .divide(BigDecimal.valueOf(DateUtils.YEAR_2020.isLeap() ? month.maxLength() : month.minLength())));
-                        contract.setPremium(contract.getPremium().subtract(event.getPremiumReduction()));
+                        BigDecimal premiumModification = computePremiumModificationProportionalWithDayOfMonth(event, event.getPremiumReduction());
+                        contract.setPremium(contract.getPremium().subtract(premiumModification));
                     }
                     event.setApplied(true);
                 }
@@ -45,5 +39,12 @@ public class MonthReport {
         } else {
             this.egwp = this.egwp.add(this.getAgwp());
         }
+    }
+
+    private BigDecimal computePremiumModificationProportionalWithDayOfMonth(Event event, BigDecimal premiumWholeMonth) {
+        return premiumWholeMonth
+            .multiply(BigDecimal.valueOf((DateUtils.YEAR_2020.isLeap() ? month.maxLength() : month.minLength()) + 1)
+                .subtract(BigDecimal.valueOf(event.getAtDate().getDate()))
+                .divide(BigDecimal.valueOf(DateUtils.YEAR_2020.isLeap() ? month.maxLength() : month.minLength())));
     }
 }

@@ -18,7 +18,7 @@ public class Event {
 
     private boolean applied = false;
 
-    public boolean validateEvent() {
+    public boolean isValid() {
         switch (name) {
             case ContractCreatedEvent:
                 return contractId != null && contractId > 0 && premium != null && premium.compareTo(BigDecimal.ZERO) > 0 && startDate != null;
