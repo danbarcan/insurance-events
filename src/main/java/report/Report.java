@@ -122,7 +122,7 @@ public class Report {
                         }
                     }
                 } else {
-                    log.warning(String.format("INVALID EVENT: ", event));
+                    log.warning(String.format("INVALID EVENT: %s", event));
                 }
             });
 

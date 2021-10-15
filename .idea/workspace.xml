@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad5f92c-0f54-4f6c-a19f-262872e46672" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/report/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/integration/TasksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/MonthReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/MonthReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/small-test-data-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/small-test-data-task1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/small-test-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/small-test-data-task2.txt" afterDir="false" />
-    </list>
+    <list default="true" id="aad5f92c-0f54-4f6c-a19f-262872e46672" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -165,7 +152,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -178,23 +165,37 @@
       <updated>1633643671780</updated>
       <workItem from="1633643675056" duration="12644000" />
       <workItem from="1633992216418" duration="10900000" />
-      <workItem from="1634285552799" duration="211000" />
+      <workItem from="1634285552799" duration="273000" />
     </task>
+    <task id="LOCAL-00001" summary="add tests + refactoring">
+      <created>1634285802385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634285802385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add tests + refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests + refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1000" y="359" key="#Main" timestamp="1634285703361">
@@ -205,6 +206,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="878" y="356" key="#TasksTest/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285658799" />
+    <state x="827" y="284" key="CommitChangelistDialog2" timestamp="1634285800822">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="827" y="284" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285800822" />
     <state width="2517" height="467" key="GridCell.Tab.0.bottom" timestamp="1634285752765">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -221,6 +226,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="467" key="GridCell.Tab.0.right/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285752765" />
+    <state x="873" y="422" key="Vcs.Push.Dialog.v2" timestamp="1634285804153">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="422" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1634285804153" />
     <state x="977" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1634285577750">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

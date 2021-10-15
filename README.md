@@ -47,8 +47,6 @@ Also, based on my assumptions, I think the reports for both tasks are wrong:
 
 ### Implementation details
 
-This is kind of a raw implementation, I did not have the time I wanted to do this test (I am writing this while on holiday in Cairo) and you might find things that could have been done better (and I would be delighted to hear your improvement ides).
-
 #### Entities
 I used for this implementation three entities:
 - Event - that represents a line from the file, with an event type and all the other fields that any event can have, as described above
@@ -65,7 +63,7 @@ First app reads the file into a list of Contracts. While doing this, the followi
   
 Then app initializes a list of MonthReports for all months of the year.
 After this initialization we go through this list, and for each month we go through the list of contracts and if the contract is active in the month in question (created and not terminated) we add this contract to our report by doing the following steps:
-- if the contract have PriceIncrease/Decrease events to be applied, we check if the event occured in this month and the change the contract premium according to this event
+- if the contract have PriceIncrease/Decrease events to be applied, we check if the event occurred in this month and the change the contract premium according to this event
 - then add the premium to contract agwp
 - then for egwp we check that the termination date is not at the end of this month, and if it is not we add the potentially gains until the end of the year to egwp, if the termination date is this month we add only agwp to egwp
 
@@ -76,7 +74,7 @@ I added only two tests to check all the two given tasks and to be sure I don't d
 
 ### Improvements to be done
 
-- Change the way dates are handled, maybe go for Calendar or research for a better way. I had to do some tricks to make the app work with Date, but, at the moment, was the easiest/fasest way for me (not proud of this).
+- Change the way dates are handled, maybe go for Calendar or research for a better way. I had to do some tricks to make the app work with Date, but, at the moment, was the easiest/fastest way for me.
 - Add more tests, way more
 
 ### Libraries used
